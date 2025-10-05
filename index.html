@@ -1,24 +1,105 @@
 <!DOCTYPE html>
-
-<html>
+<html lang="en">
 <head>
-  <title>my-first-website</title>
-  <LINK href="styles.css" rel="stylesheet" type="text/css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Welcome to HTML - Amresh's Website</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="styles.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
+  <div class="container">
+    <!-- Octocat Image -->
+    <div class="octocat-container">
+      <img src="https://octodex.github.com/images/daftpunktocat-thomas.gif" alt="Octocat" class="octocat" />
+    </div>
 
-<img src="https://octodex.github.com/images/daftpunktocat-thomas.gif" id="octocat" alt="octocat-gif" />
+    <!-- Welcome Section -->
+    <div class="content-card main-title">
+      <h1>Welcome to HTML</h1>
+      <p>Hi! Myself Amresh! There are different types of HTML tags. One which has closing tag and other which don't have closing tag.</p>
+    </div>
 
-<!-- Change this code here by copy and pasting your template on line 15 -->
-<h1>Welcome to HTML</h1>
-<h3>Hii Myself Amresh!</h3>
-<p>There are different types of html tags. One which has closing tag and other which don't have closing tag</p>
-  <ul>
-    <li><HTML> - It is the top level element in every html document.</li>
-      <li><head> - It is the element containing title and references to css or script file</li>
-        <li><body> - It contains main body of the webpage</li>
-  </ul>
-  <p> HTML elements are not case sensitive.</p>
+    <!-- HTML Elements -->
+    <div class="content-card">
+      <h3>Basic HTML Elements:</h3>
+      <div class="element-list">
+        <div class="element-item">
+          <code>&lt;HTML&gt;</code> - It is the top level element in every HTML document.
+        </div>
+        <div class="element-item">
+          <code>&lt;head&gt;</code> - It is the element containing title and references to CSS or script file.
+        </div>
+        <div class="element-item">
+          <code>&lt;body&gt;</code> - It contains main body of the webpage.
+        </div>
+      </div>
+    </div>
+
+    <!-- Additional HTML Info -->
+    <div class="content-card">
+      <h3>More About HTML:</h3>
+      <p>Common elements include headings, paragraphs, links, lists, and images. Elements can have attributes like class and id to help with styling and scripting, and modern HTML also includes semantic tags like &lt;header&gt;, &lt;main&gt;, and &lt;footer&gt; to improve structure and accessibility.</p>
+    </div>
+
+    <!-- Case Sensitivity Info -->
+    <div class="content-card case-info">
+      <p><strong>Note:</strong> HTML elements are not case sensitive.</p>
+    </div>
+
+    <!-- Extra Features -->
+    <div class="content-card extra-features">
+      <h3>Quick HTML Tips:</h3>
+      <div class="tips-grid">
+        <div class="tip-item">
+          <div class="tip-icon">📝</div>
+          <div class="tip-content">
+            <h4>Structure</h4>
+            <p>Always use proper document structure with DOCTYPE, html, head, and body tags.</p>
+          </div>
+        </div>
+        <div class="tip-item">
+          <div class="tip-icon">🎨</div>
+          <div class="tip-content">
+            <h4>Styling</h4>
+            <p>Link CSS files in the head section to style your webpage beautifully.</p>
+          </div>
+        </div>
+        <div class="tip-item">
+          <div class="tip-icon">📱</div>
+          <div class="tip-content">
+            <h4>Responsive</h4>
+            <p>Use viewport meta tag to make your site mobile-friendly.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Interactive Section -->
+    <div class="content-card interactive-section">
+      <h3>HTML Cheat Sheet</h3>
+      <div class="cheat-sheet">
+        <div class="cheat-item">
+          <code>&lt;h1&gt;</code> - Main heading
+        </div>
+        <div class="cheat-item">
+          <code>&lt;p&gt;</code> - Paragraph
+        </div>
+        <div class="cheat-item">
+          <code>&lt;a&gt;</code> - Link
+        </div>
+        <div class="cheat-item">
+          <code>&lt;img&gt;</code> - Image
+        </div>
+        <div class="cheat-item">
+          <code>&lt;ul&gt;</code> - Unordered list
+        </div>
+        <div class="cheat-item">
+          <code>&lt;ol&gt;</code> - Ordered list
+        </div>
+      </div>
+    </div>
+  </div>
 </body>
 </html>
